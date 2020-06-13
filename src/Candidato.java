@@ -10,7 +10,7 @@ public class Candidato {
         return "\nDados do Candidato" +
                 "\nCandidato: " + nomeCandidato +
                 "\nPartido Politico: " + partidoPolitico +
-                "\nIdade=" + idade;
+                "\nIdade: " + idade;
     }
 
     public Candidato(String nomeCandidato, String partidoPolitico, int idade) {

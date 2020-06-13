@@ -30,12 +30,12 @@ public class Eleitor {
         this.dataNascimento = dataNascimento;
     }
 
-
-
     @Override
     public String toString() {
-        return "Eleitores [nomeEleitor=" + nomeEleitor + ", numeroTitulo=" + numeroTitulo + ", dataNascimento="
-                + dataNascimento + "]";
+        return "\nDados do Eleitor" +
+                "\nEleitor: " + nomeEleitor +
+                "\nTítulo de Eleitor: " + numeroTitulo +
+                "\nData de Nascimento: " + dataNascimento;
     }
 
     //public void votar()
