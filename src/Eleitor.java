@@ -1,12 +1,14 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Eleitor {
 
     private String nomeEleitor;
     private String numeroTitulo;
-    private String dataNascimento;
+    private Date dataNascimento;
 
 
-    public Eleitor(String nomeEleitor, String numeroTitulo, String dataNascimento) {
+    public Eleitor(String nomeEleitor, String numeroTitulo, Date dataNascimento) {
         this.nomeEleitor = nomeEleitor;
         this.numeroTitulo = numeroTitulo;
         this.dataNascimento = dataNascimento;
@@ -23,10 +25,10 @@ public class Eleitor {
     public void setNumeroTitulo(String numeroTitulo) {
         this.numeroTitulo = numeroTitulo;
     }
-    public String getDataNascimento() {
+    public Date getDataNascimento() {
         return dataNascimento;
     }
-    public void setDataNascimento(String dataNascimento) {
+    public void setDataNascimento(Date dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 
@@ -35,7 +37,7 @@ public class Eleitor {
         return "\nDados do Eleitor" +
                 "\nEleitor: " + nomeEleitor +
                 "\nTítulo de Eleitor: " + numeroTitulo +
-                "\nData de Nascimento: " + dataNascimento;
+                "\nData de Nascimento: " + new SimpleDateFormat("dd/MM/yyyy").format(dataNascimento);
     }
 
     //public void votar()

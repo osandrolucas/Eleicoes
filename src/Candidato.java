@@ -1,22 +1,25 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Candidato {
 
     private String nomeCandidato;
     private String partidoPolitico;
-    private int idade;
+    private Date dataNascimento;
+    private int Votos = 0;
 
     @Override
     public String toString() {
         return "\nDados do Candidato" +
                 "\nCandidato: " + nomeCandidato +
                 "\nPartido Politico: " + partidoPolitico +
-                "\nIdade: " + idade;
+                "\nData de Nascimento: " + new SimpleDateFormat("dd/MM/yyyy").format(dataNascimento);
     }
 
-    public Candidato(String nomeCandidato, String partidoPolitico, int idade) {
+    public Candidato(String nomeCandidato, String partidoPolitico, Date dataNascimento) {
         this.nomeCandidato = nomeCandidato;
         this.partidoPolitico = partidoPolitico;
-        this.idade = idade;
+        this.dataNascimento = dataNascimento;
     }
 
     public String getNomeCandidato() {
@@ -35,12 +38,11 @@ public class Candidato {
         this.partidoPolitico = partidoPolitico;
     }
 
-    public int getIdade() {
-        return idade;
+    public Date getDataNascimento() {
+        return dataNascimento;
     }
 
-    public void setIdade(int idade) {
-        this.idade = idade;
+    public void setDataNascimento(Date dataNascimento) {
+        this.dataNascimento = dataNascimento;
     }
-
 }

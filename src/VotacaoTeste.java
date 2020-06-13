@@ -2,7 +2,7 @@
 public class VotacaoTeste {
 
     public static void main(String[] args) {
-
+/*
         Eleitor e1  = new Eleitor ("Felipe" , "1555" , "02.10.1994");
         Eleitor e2  = new Eleitor ("Gustavo", "2222", "05.15.2000");
         Eleitor e3  = new Eleitor ("Jadison", "2333", "01.02.1980");
@@ -30,7 +30,7 @@ public class VotacaoTeste {
 
 
 
-
+*/
     }
 
 }
