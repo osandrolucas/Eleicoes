@@ -33,6 +33,12 @@ public class newMenu {
         candidatoList.add(joao);
         candidatoList.add(jose);
 
+        jose.votar();
+        jose.votar();
+        joao.votar();
+        System.out.println(jose.quantidadeVotos());
+        System.out.println(joao.quantidadeVotos());
+
     }
 }
 

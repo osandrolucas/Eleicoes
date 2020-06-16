@@ -6,7 +6,7 @@ public class Candidato {
     private String nomeCandidato;
     private String partidoPolitico;
     private Date dataNascimento;
-    private int Votos = 0;
+    public int votos = 0;
 
     @Override
     public String toString() {
@@ -14,6 +14,14 @@ public class Candidato {
                 "\nCandidato: " + nomeCandidato +
                 "\nPartido Politico: " + partidoPolitico +
                 "\nData de Nascimento: " + new SimpleDateFormat("dd/MM/yyyy").format(dataNascimento);
+    }
+
+    public void votar(){
+        votos  = votos + 1;
+    }
+
+    public String quantidadeVotos(){
+        return "O candidato "+ nomeCandidato + " possui " + votos + " votos.";
     }
 
     public Candidato(String nomeCandidato, String partidoPolitico, Date dataNascimento) {
