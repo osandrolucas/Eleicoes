@@ -10,8 +10,6 @@ public class VotacaoTeste {
         Eleitor e5  = new Eleitor ("Laura", "1111", "03.08.2002");
         Eleitor e6  = new Eleitor ("Patricia", "0001", "15.12.1998");
 
-
-
         Candidato c1 = new Candidato("Vanderlei" ,"PKL" , 35);
         Candidato c2 = new Candidato("Joel", "KKK" , 51);
         Candidato c3 = new Candidato("Vandison", "LNM", 42);
@@ -27,7 +25,6 @@ public class VotacaoTeste {
         dados.addEleitor(e4);
         dados.addEleitor(e5);
         dados.addEleitor(e6);
-
 
 
 */

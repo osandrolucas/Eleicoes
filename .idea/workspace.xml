@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8851c5bc-32b7-4c50-9d64-8707319d4d7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FormattingDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eleicoes/Candidato.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eleicoes/Candidato.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eleicoes/Eleitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eleicoes/Eleitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eleicoes/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eleicoes/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eleicoes/VotacaoTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eleicoes/VotacaoTeste.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Candidato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Candidato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Eleitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VotacaoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VotacaoTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programacao_Web_1_IFRS_POA/2020_1/Trabalho_1" />
   </component>
-  <component name="RunManager" selected="Application.Menu">
+  <component name="RunManager" selected="Application.newMenu">
     <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Menu" />
       <module name="Eleicoes" />
@@ -54,8 +48,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="newMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newMenu" />
+      <module name="Eleicoes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.newMenu" />
         <item itemvalue="Application.Menu" />
         <item itemvalue="Application.VotacaoTeste" />
       </list>
@@ -87,30 +89,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592075651721" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1592078303240">
+    <state width="1323" height="308" key="GridCell.Tab.0.bottom" timestamp="1592272392076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592078303240" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1592078303240">
+    <state width="1323" height="308" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592272392076" />
+    <state width="1323" height="308" key="GridCell.Tab.0.center" timestamp="1592272392076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592078303240" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1592078303240">
+    <state width="1323" height="308" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592272392076" />
+    <state width="1323" height="308" key="GridCell.Tab.0.left" timestamp="1592272392076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592078303240" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1592078303240">
+    <state width="1323" height="308" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592272392076" />
+    <state width="1323" height="308" key="GridCell.Tab.0.right" timestamp="1592272392076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592078303240" />
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1592074518417">
+    <state width="1323" height="308" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592272392076" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1592272583003">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592074518417" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592272583003" />
     <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592063279711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1592063279711" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1592270874869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1592270874869" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1592062546319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -20,6 +20,7 @@ public class Candidato {
         this.nomeCandidato = nomeCandidato;
         this.partidoPolitico = partidoPolitico;
         this.dataNascimento = dataNascimento;
+        System.out.println("Candidato " + this.nomeCandidato + ", nascido em " + new SimpleDateFormat("dd/MM/yyyy").format(this.dataNascimento) + ", do partido " + this.partidoPolitico + " cadastrado com sucesso!");
     }
 
     public String getNomeCandidato() {
